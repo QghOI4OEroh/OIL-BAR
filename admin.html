@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Админ-панель</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <h1>Административная панель</h1>
+
+  <!-- Форма для добавления нового товара -->
+  <h3>Добавить новый товар</h3>
+  <form id="addProductForm">
+    <label>Название товара:</label>
+    <input type="text" id="productName" required>
+    <label>Цена (KZT):</label>
+    <input type="number" id="productPrice" required>
+    <label>URL изображения:</label>
+    <input type="text" id="productImage" placeholder="images/oil1.jpg" required>
+    <button type="submit">Добавить товар</button>
+  </form>
+
+  <hr>
+
+  <!-- Таблица для редактирования существующих товаров -->
+  <h3>Каталог товаров</h3>
+  <table id="productTable">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Название</th>
+        <th>Цена</th>
+        <th>Действия</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Товары будут загружаться здесь -->
+    </tbody>
+  </table>
+
+  <script src="admin.js"></script>
+</body>
+</html>

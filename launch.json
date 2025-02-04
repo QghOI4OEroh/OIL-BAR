@@ -1,0 +1,36 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "chrome",
+        "request": "launch",
+        "name": "Открыть index.html",
+        "file": "${workspaceFolder}/index.html"
+      },
+      {
+        "type": "chrome",
+        "request": "launch",
+        "name": "Открыть admin.html",
+        "file": "${workspaceFolder}/admin.html"
+      },
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Запуск сервера",
+        "program": "${workspaceFolder}/server.js"
+      },
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Запуск script.js",
+        "program": "${workspaceFolder}/script.js"
+      },
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Запуск admin.js",
+        "program": "${workspaceFolder}/admin.js"
+      }
+    ]
+  }
+  

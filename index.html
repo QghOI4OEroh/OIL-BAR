@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OIL BAR</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="site-title">Oil Bar</h1>
+    <nav class="nav-bar">
+      <a href="#catalog">Каталог</a>
+      <a href="#order">Оформление заказа</a>
+    </nav>
+    <div class="search-bar">
+      <input type="text" id="search" placeholder="Поиск масла или антифриза...">
+      <button id="searchButton">Найти</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <img src="images/old car 1930s.jpg" alt="Старинный автомобиль" class="hero-image">
+    <h2 class="hero-text">Моторные масла и антифризы</h2>
+  </section>
+
+  <main>
+    <section id="catalog" class="catalog">
+      <h3>Наш каталог</h3>
+      <div class="catalog-items">
+        <!-- Продукты будут добавляться через JavaScript -->
+      </div>
+    </section>
+  
+    <section id="order" class="order-form">
+      <h3>Оформление заказа</h3>
+      <form id="orderForm">
+        <label for="name">Ваше имя:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="city">Ваш город:</label>
+        <select id="city" name="city" required>
+          <option value="Костанай">Костанай (бесплатно)</option>
+          <option value="Алматы">Алматы (2000 KZT)</option>
+          <option value="Астана">Астана (1500 KZT)</option>
+          <option value="Шымкент">Шымкент (2500 KZT)</option>
+        </select>
+
+        <label for="product">Продукт:</label>
+        <select id="product" name="product" required></select>
+
+        <label for="quantity">Количество:</label>
+        <input type="number" id="quantity" name="quantity" min="1" required>
+
+        <button type="submit">Заказать</button>
+      </form>
+    </section>
+  </main>
+  <img src="images/default.jpg" class="selected-product-image" alt="Выбранный продукт">  
+  
+  <footer class="footer">
+    <p>&copy; 2025 Oil Bar. Все права защищены.</p>
+  
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
