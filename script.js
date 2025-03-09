@@ -68,10 +68,21 @@ document.getElementById('orderForm').addEventListener('submit', function (e) {
   const basePrice = selectedProduct.price * quantity;
   
   let deliveryFee = 0;
-  if (city === 'Алматы') deliveryFee = 2000;
-  if (city === 'Астана') deliveryFee = 1500;
-  if (city === 'Шымкент') deliveryFee = 2500;
-
+    if (city === 'Алматы') deliveryFee = 2000;
+    if (city === 'Астана') deliveryFee = 1500;
+    if (city === 'Шымкент') deliveryFee = 2500;
+    if (city === 'Павлодар') deliveryFee = 1000;
+    if (city === 'Актобе') deliveryFee = 1000;
+    if (city === 'Туркестан') deliveryFee = 1400;
+    if (city === 'Уральск') deliveryFee = 1200;
+    if (city === 'Усть-Каменногорск') deliveryFee = 2000;
+    if (city === 'Актау') deliveryFee = 1800;
+    if (city === 'Атырау') deliveryFee = 1800;
+    if (city === 'Тараз') deliveryFee = 2000;
+    if (city === 'Петропавловск') deliveryFee = 700;
+    if (city === 'Кокшетау') deliveryFee = 1000;
+    if (city === 'Семей') deliveryFee = 1800;
+  
   const totalPrice = basePrice + deliveryFee;
 
   alert(`Итог заказа:
