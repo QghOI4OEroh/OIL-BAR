@@ -145,9 +145,7 @@ option.textContent = product.name;
     document.querySelector('.selected-product-image').src = selectedProduct.image;
   });
   
-  // В HTML рядом с формой
-  <img> src="images/default.jpg" class="selected-product-image" alt="Выбранный продукт"</img>
-  
+   <img> src="images/default.jpg" class="selected-product-image" alt="Выбранный продукт"</img>
   
   // Обработка формы заказа
   const form = document.getElementById('orderForm');
