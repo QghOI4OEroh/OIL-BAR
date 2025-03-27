@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>OIL BAR</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header class="header">
@@ -20,8 +20,29 @@
   </header>
 
   <section class="hero">
-    <img src="images/old car 1930s.jpg" alt="Старинный автомобиль" class="hero-image">
+    <img src="images/old_car_1930s.jpg" alt="Старинный автомобиль" class="hero-image">
     <h2 class="hero-text">Моторные масла и антифризы</h2>
+    <div class="selected-products">
+      <img src="images/photo_3_2024-12-13_22-10-37.jpg" class="selected-product-image" alt="Выбранный продукт"> 
+      <img src="images/photo_7_2024-11-24_23-02-09.jpg" class="selected-product-image" alt="Выбранный продукт"> 
+      <img src="images/photo_2_2024-12-13_22-10-37.jpg" class="selected-product-image" alt="Выбранный продукт"> 
+      <img src="images/photo_25_2024-12-15_21-37-16.jpg" class="selected-product-image" alt="Выбранный продукт">
+      <img src="images/photo_48_2024-12-13_23-09-05.jpg" class="selected-product-image" alt="Выбранный продукт">
+      <img src="images/photo_26_2024-12-13_23-09-04.jpg" class="selected-product-image" alt="Выбранный продукт"> 
+      <img src="images/photo_38_2024-12-13_23-09-04.jpg" class="selected-product-image" alt="Выбранный продукт">
+      <img src="images/photo_24_2024-12-13_22-10-37.jpg" class="selected-product-image" alt="Выбранный продукт"> 
+      <img src="images/photo_38_2024-11-24_23-02-10.jpg" class="selected-product-image" alt="Выбранный продукт">
+      <img src="images/photo_46_2024-11-24_23-02-10.jpg" class="selected-product-image" alt="Выбранный продукт">
+      <img src="images/photo_30_2024-12-13_22-10-37.jpg" class="selected-product-image" alt="Выбранный продукт">
+      <img src="images/photo_32_2024-12-13_22-10-37.jpg" class="selected-product-image" alt="Выбранный продукт">
+      <img src="images/photo_48_2024-12-15_21-37-16.jpg" class="selected-product-image" alt="Выбранный продукт">
+      <img src="images/photo_41_2024-12-13_22-10-37.jpg" class="selected-product-image" alt="Выбранный продукт">
+      <img src="images/photo_49_2024-11-24_23-02-10.jpg" class="selected-product-image" alt="Выбранный продукт"> 
+      <img src="images/photo_44_2024-12-13_22-10-37.jpg" class="selected-product-image" alt="Выбранный продукт"> 
+      <img src="images/photo_46_2024-12-13_22-10-37.jpg" class="selected-product-image" alt="Выбранный продукт"> 
+      <img src="images/photo_49_2024-11-24_23-02-10.jpg" class="selected-product-image" alt="Выбранный продукт">
+      <img src="images/photo_47_2024-11-24_23-02-10.jpg" class="selected-product-image" alt="Выбранный продукт">
+    </div>
   </section>
 
   <main>
@@ -40,10 +61,21 @@
 
         <label for="city">Ваш город:</label>
         <select id="city" name="city" required>
-          <option value="Костанай">Костанай (бесплатно)</option>
+          <option value="">Выберите город</option>
           <option value="Алматы">Алматы (2000 KZT)</option>
           <option value="Астана">Астана (1500 KZT)</option>
           <option value="Шымкент">Шымкент (2500 KZT)</option>
+          <option value="Павлодар">Павлодар (1000 KZT)</option>
+          <option value="Актобе">Актобе (1000 KZT)</option>
+          <option value="Туркестан">Туркестан (1400 KZT)</option>
+          <option value="Уральск">Уральск (1200 KZT)</option>
+          <option value="Усть-Каменногорск">Усть-Каменногорск (2000 KZT)</option>
+          <option value="Актау">Актау (1800 KZT)</option>
+          <option value="Атырау">Атырау (1800 KZT)</option>
+          <option value="Тараз">Тараз (2000 KZT)</option>
+          <option value="Петропавловск">Петропавловск (700 KZT)</option>
+          <option value="Кокшетау">Кокшетау (1000 KZT)</option>
+          <option value="Семей">Семей (1800 KZT)</option>
         </select>
 
         <label for="product">Продукт:</label>
@@ -56,12 +88,11 @@
       </form>
     </section>
   </main>
-  <img src="images/default.jpg" class="selected-product-image" alt="Выбранный продукт">  
   
   <footer class="footer">
     <p>&copy; 2025 Oil Bar. Все права защищены.</p>
-  
   </footer>
-  <script src="script.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
+
