@@ -28,6 +28,8 @@ const products = [
   { id: 26, name: "Моторное масло Magnum", price: 11500, image: "images/photo_47_2024-11-24_23-02-10.jpg" }
 ];
 
+<script src="js/script.js" defer></script>
+
 
 // Список стоимости доставки
 const deliveryPrices = {
